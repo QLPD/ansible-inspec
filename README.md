@@ -5,14 +5,14 @@ Installs inspec.
 
 Role Variables
 --------------
-inspecVersion: 2.1.10
+inspec_version: 4.6.3
 
 Example Playbook
 ----------------
 
     - hosts: servers
       roles:
-         - { role: chrisevett.inspec, inspecVersion: 2.1.10 }
+         - { role: chrisevett.inspec, inspec_version: 4.6.3 }
 
 License
 -------

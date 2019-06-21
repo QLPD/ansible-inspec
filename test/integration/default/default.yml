@@ -4,4 +4,4 @@
   roles:
     - ansible-inspec 
   vars:
-    inspecVersion: 2.1.10
+    inspec_version: 4.6.3
